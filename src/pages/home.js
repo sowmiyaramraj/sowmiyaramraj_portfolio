@@ -1,7 +1,5 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import gif1 from "../images/gif1.jpeg";
@@ -17,12 +15,26 @@ import field8 from "../images/field8.png";
 import field5 from "../images/field5.png";
 import field6 from "../images/field6.png";
 import field7 from "../images/field7.png";
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 
+const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
+    height: 10,
+    borderRadius: 5,
+    [`&.${linearProgressClasses.colorPrimary}`]: {
+      backgroundColor: theme.palette.grey[theme.palette.mode === 'light' ? 200 : 800],
+    },
+    [`& .${linearProgressClasses.bar}`]: {
+      borderRadius: 5,
+      backgroundColor: theme.palette.mode === 'light' ? '#1a90ff' : '#308fe8',
+    },
+  }));
 
 export default function Home()
 {
     return(
-        <div>
+        <div>           
             <div>
             <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
@@ -97,10 +109,23 @@ export default function Home()
             </Box>
             </div>
             <div>
-              <Typography>Proficiency</Typography>
-              <p>frontend design</p>
-              <p>backend design</p>
-              <p>programming</p>
+              <Typography style={{fontWeight:"bolder",textAlign:"left"}} variant="h5" gutterBottom>Proficiency</Typography>
+            <Typography style={{color:"grey",textAlign:"left"}} variant="h6" gutterBottom >Frontend design</Typography>
+            <Box sx={{ flexGrow: 1 }}>     
+      <BorderLinearProgress variant="determinate" value={80} />
+    </Box> 
+    <Typography style={{color:"grey",textAlign:"left"}} variant="h6" gutterBottom >
+    Backend design
+    </Typography>
+            
+              <Box sx={{ flexGrow: 1 }}>     
+      <BorderLinearProgress variant="determinate" value={60} />
+    </Box> 
+    <Typography style={{color:"grey",textAlign:"left"}} variant="h6" gutterBottom >
+Programming</Typography>
+              <Box sx={{ flexGrow: 1 }}>     
+      <BorderLinearProgress variant="determinate" value={70} />
+    </Box> 
             </div>
         </div>
     );
