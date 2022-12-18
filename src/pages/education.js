@@ -17,11 +17,11 @@ export default function Education()
                
                 <Grid container spacing={0}>
                     <Grid item xs={3}>
-                    <img style={{width:"150px",height:"100px"}} src={msu}/>
+                    <img style={{width:"120px",height:"90px"}} src={msu}/>
                     </Grid>
                     <Grid item xs={6}>
                     <Card sx={{ minWidth: 275 }}>
-                    <Typography sx={{ fontSize: 14,textAlign:"center",background:"rgb(204, 245, 245)" }} color="text.secondary" gutterBottom>
+                    <Typography sx={{ fontSize: 14,textAlign:"center",background:"rgb(245, 180, 245)" }} color="text.secondary" gutterBottom>
         MS University<br/>
         Master of Science in Infromation Technology(2016-2018)
         </Typography>
@@ -37,16 +37,15 @@ export default function Education()
                     </Grid>
                 </Grid>
             </div>
-            <br/>
-            <div >
-               
+            <br/><hr/>
+            <div >               
                 <Grid container spacing={0}>
                     <Grid item xs={3}>
-                    <img style={{width:"150px",height:"100px"}} src={sarada}/>
+                    <img style={{width:"100px",height:"120px"}} src={sarada}/>
                     </Grid>
                     <Grid item xs={6}>
                     <Card sx={{ minWidth: 275 }}>
-                    <Typography sx={{ fontSize: 14,textAlign:"center",background:"rgb(204, 245, 245)" }} color="text.secondary" gutterBottom>
+                    <Typography sx={{ fontSize: 14,textAlign:"center",background:"rgb(245, 180, 245)" }} color="text.secondary" gutterBottom>
         Sri Sarada college<br/>
        Bachelore of Science in Computer Science(2013-2016)
         </Typography>
