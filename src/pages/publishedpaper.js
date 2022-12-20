@@ -5,7 +5,10 @@ export default function Publishedpaper()
 {
     return(
         <div>
-             <Card style={{width:"500px",height:"100px"}}>
+            <Typography variant="h3" gutterBottom>
+                Internship
+            </Typography>
+             <Card style={{width:"500px",height:"100px",margin:"50px"}}>
             <Typography style={{fontSize:"16px",align:"left"}}>
                 Published a research paper entitled
                 <span style={{fontSize:"18px"}}>RISK FACTOR OF CANCER DIABETICS AND HEART DISEASE ON
