@@ -21,23 +21,24 @@ export default function Education()
                     </Grid>
                     <Grid item xs={6}>
                     <Card sx={{ minWidth: 275 }}>
-                    <Typography sx={{ fontSize: 14,textAlign:"center",background:"rgb(245, 180, 245)" }} color="text.secondary" gutterBottom>
+                    <Typography sx={{ fontSize: 16,textAlign:"center",background:"rgb(245, 180, 245)" }} color="text.secondary" gutterBottom>
         MS University<br/>
-        Master of Science in Infromation Technology(2016-2018)
+        Master of Science in Infromation Technology
+        <span style={{fontSize:"12px"}}>(2016-2018)</span>
         </Typography>
         <Typography>
             
             <Typography variant="h6" guttorBottom>Academic Project</Typography>
             <ol style={{textAlign:"left"}}>
             <li>
-            <span style={{fontSize:"20px"}}>
+            <span style={{fontSize:"16px"}}>
             Risk Factor of cancer diabetics and heart disease
             on naive bayes algorithm on web based applicationBox
             </span>
             <br/><span style={{fontSize:"15px",color:"grey"}}>javascript,html,css</span>
 </li>
             <br/>
-            <span style={{fontSize:"20px"}}><li>Tourism Analytics
+            <span style={{fontSize:"16px"}}><li>Tourism Analytics
             <br/><span style={{fontSize:"15px",color:"grey"}}>R </span>
 </li></span>
             </ol>
@@ -55,16 +56,17 @@ export default function Education()
                     </Grid>
                     <Grid item xs={6}>
                     <Card sx={{ minWidth: 275 }}>
-                    <Typography sx={{ fontSize: 14,textAlign:"center",background:"rgb(245, 180, 245)" }} color="text.secondary" gutterBottom>
+                    <Typography sx={{ fontSize: 16,textAlign:"center",background:"rgb(245, 180, 245)" }} color="text.secondary" gutterBottom>
         Sri Sarada college<br/>
-       Bachelore of Science in Computer Science(2013-2016)
+       Bachelore of Science in Computer Science
+       <span style={{fontSize:"12px"}}>(2013-2016)</span>
         </Typography>
         <Typography>
             
             <Typography variant="h6" guttorBottom>Academic Project</Typography>
             <ol style={{textAlign:"left"}}>
             <li>
-            <span style={{fontSize:"20px"}}>
+            <span style={{fontSize:"16px"}}>
             Blog Creation
             </span>
             <br/><span style={{fontSize:"15px",color:"grey"}}>javascript,html,css</span></li>
