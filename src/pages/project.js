@@ -7,7 +7,7 @@ export default function Project()
 {
     return(
         <div>
-           <Typography variant="h2" guttorBottom>Something I Built</Typography>
+           <Typography variant="h2" guttorBottom>Something I Built..</Typography>
            <Grid container spacing={2}>
   <Grid item xs={4}>
     <Card style={{height:"200px"}} variant="outlined" >

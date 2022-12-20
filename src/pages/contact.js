@@ -8,8 +8,6 @@ import cvlogo from "../images/cvlogo.png";
 import sowimg from "../images/sowmiyaimg.jpg";
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import contactbg from "../images/contactbg.jpeg";
-
 
 export default function Contact()
 {
