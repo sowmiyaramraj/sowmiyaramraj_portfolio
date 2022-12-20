@@ -6,6 +6,7 @@ import Education from "./pages/education";
 import Acheivements from "./pages/acheivements";
 import Project from "./pages/project";
 import Dashboard from "./pages/dashboard";
+import Internship from "./pages/internship";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
            <Route path="/acheivements"  element={<Acheivements/>}/>
            <Route path="/project" element={<Project/>}/>
            <Route path="/education" element={<Education/>}/>
+           <Route path="/internship" element={<Internship/>}/>
 
            </Routes>
       </Router>
