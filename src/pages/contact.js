@@ -25,20 +25,20 @@ export default function Contact()
         <Grid item xs={6}>
           <a href="https://github.com/sowmiyaramraj" target="_blank" rel="noreferrer">
           <img style={{width:"35px",height:"35px"}} src={github} alt="github" />
-        </a>&nbsp;
+        </a>&nbsp;&nbsp;
         <a href="https://github.com/sowmiyaramraj" target="_blank" rel="noreferrer">
           <img style={{width:"35px",height:"35px"}} src={email} alt="github" />
-        </a>&nbsp;
+        </a>&nbsp;&nbsp;
         <a href="www.linkedin.com/in/sowmiya-ramraj" target="_blank" rel="noreferrer">
           <img style={{width:"35px",height:"35px"}} src={linkedin} alt="github" />
-        </a>&nbsp;
+        </a>&nbsp;&nbsp;
         <a href="https://www.instagram.com/yoon_kids_mom" target="_blank" rel="noreferrer">
           <img style={{width:"35px",height:"35px"}} src={insta} alt="github" />
-        </a>&nbsp;
+        </a>&nbsp;&nbsp;
         <br/><br/>
         <a href="https://github.com/sowmiyaramraj/sowmiyaRamraj-Resume" target="_blank" rel="noreferrer">
           <img style={{width:"55px",height:"55px"}} src={cvlogo} alt="github" />
-        </a>&nbsp;
+        </a>&nbsp;&nbsp;
 
         <Typography style={{fontWeight:"bolder"}} variant="h5" gutterBottom>Address</Typography>
         <p style={{color:"grey",fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}}>No.5, Alagar salai<br/>Old Pallavarm,Chennai-600117</p>

@@ -9,7 +9,7 @@ import Box from '@mui/material/Box';
 import sowmiya from "../images/sowmiya-name-logo.jpeg";
 import Contact from "./contact";
 import Education from "./education";
-import Experience from "./experience";
+import Acheivements from "./acheivements";
 import Home from "./home";
 import Project from "./project";
 
@@ -60,7 +60,7 @@ export default function Dashboard()
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab style={{fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}} label="Home" {...a11yProps(0)} />
           <Tab style={{fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}} label="Education" {...a11yProps(1)} />
-          <Tab style={{fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}} label="Experience" {...a11yProps(2)} />
+          <Tab style={{fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}} label="Acheivements" {...a11yProps(2)} />
           <Tab style={{fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}} label="Project" {...a11yProps(3)} />
           <Tab style={{fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}} label="Contact" {...a11yProps(4)} />
         </Tabs>
@@ -72,7 +72,7 @@ export default function Dashboard()
       <Education/>
       </TabPanel>
       <TabPanel value={value} index={2}>
-       <Experience/>
+       <Acheivements/>
       </TabPanel>
       <TabPanel value={value} index={3}>
       <Project/>

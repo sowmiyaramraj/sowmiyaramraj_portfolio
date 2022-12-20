@@ -17,7 +17,7 @@ export default function Education()
                
                 <Grid container spacing={0}>
                     <Grid item xs={3}>
-                    <img style={{width:"120px",height:"90px"}} src={msu}/>
+                    <img style={{width:"120px",height:"90px",margin:"60px"}} src={msu}/>
                     </Grid>
                     <Grid item xs={6}>
                     <Card sx={{ minWidth: 275 }}>
@@ -51,7 +51,7 @@ export default function Education()
             <div >               
                 <Grid container spacing={0}>
                     <Grid item xs={3}>
-                    <img style={{width:"100px",height:"120px"}} src={sarada}/>
+                    <img style={{width:"100px",height:"120px",margin:"60px"}} src={sarada}/>
                     </Grid>
                     <Grid item xs={6}>
                     <Card sx={{ minWidth: 275 }}>
@@ -72,7 +72,7 @@ export default function Education()
             </ol>
             </Typography>  
             </Card>
-            </Grid>
+            </Grid><hr/>
             </Grid>
             </div>
         </div>
