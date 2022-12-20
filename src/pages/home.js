@@ -1,6 +1,5 @@
 import { Typography } from "@mui/material";
 import React from "react";
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import gif1 from "../images/gif1.jpeg";
 import github from "../images/githubicon.png";
@@ -10,7 +9,7 @@ import linkedin from "../images/linkedinlogo.png";
 import cvlogo from "../images/cvlogo.png";
 import field1 from "../images/field1.png";
 import field2 from "../images/field2.png";
-import field3 from "../images/field3.jpeg";
+import node from "../images/node,express.png";
 import field8 from "../images/field8.png";
 import field5 from "../images/field5.png";
 import field6 from "../images/field6.png";
@@ -86,7 +85,7 @@ export default function Home()
           <img style={{width:"45px",height:"45px"}} src={field2} alt="github" />
         </a>&nbsp;&nbsp;&nbsp;
         <a href="www.linkedin.com/in/sowmiya-ramraj" target="_blank" rel="noreferrer">
-          <img style={{width:"45px",height:"45px"}} src={field3} alt="github" />
+          <img style={{width:"45px",height:"45px"}} src={node} alt="github" />
         </a>&nbsp;&nbsp;&nbsp;
         <a href="https://www.instagram.com/yoon_kids_mom" target="_blank" rel="noreferrer">
           <img style={{width:"45px",height:"45px"}} src={field8} alt="github" />

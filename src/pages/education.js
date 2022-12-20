@@ -26,11 +26,8 @@ export default function Education()
         Master of Science in Infromation Technology(2016-2018)
         </Typography>
         <Typography>
-            <ol style={{textAlign:"left"}}>               
-                I have studied basic Big Data analytics<br/>               
-               Basic coding in R studio
-            </ol><hr/>
-            <Typography variant="h5" guttorBottom>Academic Project</Typography>
+            
+            <Typography variant="h6" guttorBottom>Academic Project</Typography>
             <ol style={{textAlign:"left"}}>
             <li>
             <span style={{fontSize:"20px"}}>
@@ -63,12 +60,8 @@ export default function Education()
        Bachelore of Science in Computer Science(2013-2016)
         </Typography>
         <Typography>
-            <ul style={{textAlign:"left"}}>               
-                I have studied basic Computer science papers &<br/>               
-               Basic coding in javascript
-            </ul>
-            <hr/>
-            <Typography variant="h5" guttorBottom>Academic Project</Typography>
+            
+            <Typography variant="h6" guttorBottom>Academic Project</Typography>
             <ol style={{textAlign:"left"}}>
             <li>
             <span style={{fontSize:"20px"}}>
