@@ -78,31 +78,22 @@ export default function Home()
             <Typography style={{fontWeight:"bolder"}} variant="h2" guttorButtom>What I do</Typography>
             <Typography style={{fontWeight:"bolder",color:"grey",textAlign:"left"}} variant="h5" guttorButtom >A passionate individual
             CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</Typography><br/>
-              <a href="https://github.com/sowmiyaramraj" target="_blank" rel="noreferrer">
-          <img style={{width:"75px",height:"45px"}} src={field1} alt="github" />
-        </a>&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/sowmiyaramraj" target="_blank" rel="noreferrer">
-          <img style={{width:"45px",height:"45px"}} src={field2} alt="github" />
-        </a>&nbsp;&nbsp;&nbsp;
-        <a href="www.linkedin.com/in/sowmiya-ramraj" target="_blank" rel="noreferrer">
-          <img style={{width:"45px",height:"45px"}} src={node} alt="github" />
-        </a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/yoon_kids_mom" target="_blank" rel="noreferrer">
-          <img style={{width:"45px",height:"45px"}} src={field8} alt="github" />
-        </a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/yoon_kids_mom" target="_blank" rel="noreferrer">
-          <img style={{width:"45px",height:"45px"}} src={field5} alt="github" />
-        </a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/yoon_kids_mom" target="_blank" rel="noreferrer">
-          <img style={{width:"45px",height:"45px"}} src={field6} alt="github" />
-        </a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com/yoon_kids_mom" target="_blank" rel="noreferrer">
-          <img style={{width:"45px",height:"45px"}} src={field7} alt="github" />
-        </a>&nbsp;&nbsp;&nbsp;
+            <img style={{width:"75px",height:"45px"}} src={field1} alt="github" />
+            &nbsp;&nbsp;&nbsp;
+            <img style={{width:"45px",height:"45px"}} src={field2} alt="github" />
+            &nbsp;&nbsp;&nbsp;
+            <img style={{width:"45px",height:"45px"}} src={node} alt="github" />
+            &nbsp;&nbsp;&nbsp;
+            <img style={{width:"45px",height:"45px"}} src={field8} alt="github" />
+            &nbsp;&nbsp;&nbsp;
+            <img style={{width:"45px",height:"45px"}} src={field5} alt="github" />
+            &nbsp;&nbsp;&nbsp;
+            <img style={{width:"45px",height:"45px"}} src={field6} alt="github" />
+            &nbsp;&nbsp;&nbsp;
+            <img style={{width:"45px",height:"45px"}} src={field7} alt="github" />
+            &nbsp;&nbsp;&nbsp;
         <br/><br/>
-        <a href="https://github.com/sowmiyaramraj/sowmiyaRamraj-Resume" target="_blank" rel="noreferrer">
-          <img style={{width:"55px",height:"55px"}} src={cvlogo} alt="github" />
-        </a>&nbsp;&nbsp;&nbsp;
+        
             </Grid>
             </Grid>
             </Box>
