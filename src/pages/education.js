@@ -26,16 +26,29 @@ export default function Education()
         Master of Science in Infromation Technology(2016-2018)
         </Typography>
         <Typography>
-            <ul style={{textAlign:"left"}}>
-               
-                I have studied basic Big Data analytics<br/>
-               
+            <ol style={{textAlign:"left"}}>               
+                I have studied basic Big Data analytics<br/>               
                Basic coding in R studio
-            </ul>
+            </ol><hr/>
+            <Typography variant="h5" guttorBottom>Academic Project</Typography>
+            <ol style={{textAlign:"left"}}>
+            <li>
+            <span style={{fontSize:"20px"}}>
+            Risk Factor of cancer diabetics and heart disease
+            on naive bayes algorithm on web based applicationBox
+            </span>
+            <br/><span style={{fontSize:"15px",color:"grey"}}>javascript,html,css</span>
+</li>
+            <br/>
+            <span style={{fontSize:"20px"}}><li>Tourism Analytics
+            <br/><span style={{fontSize:"15px",color:"grey"}}>R </span>
+</li></span>
+            </ol>
+            </Typography>
             
-            </Typography>  </Card>
-                    </Grid>
-                </Grid>
+            </Card>
+            </Grid>
+            </Grid>
             </div>
             <br/><hr/>
             <div >               
@@ -51,13 +64,23 @@ export default function Education()
         </Typography>
         <Typography>
             <ul style={{textAlign:"left"}}>               
-                I have studied basic Big Data analytics<br/>               
-               Basic coding in R studio
+                I have studied basic Computer science papers &<br/>               
+               Basic coding in javascript
             </ul>
-            
-            </Typography>  </Card>
-                    </Grid>
-                </Grid>
+            <hr/>
+            <Typography variant="h5" guttorBottom>Academic Project</Typography>
+            <ol style={{textAlign:"left"}}>
+            <li>
+            <span style={{fontSize:"20px"}}>
+            Blog Creation
+            </span>
+            <br/><span style={{fontSize:"15px",color:"grey"}}>javascript,html,css</span></li>
+            <br/>
+            </ol>
+            </Typography>  
+            </Card>
+            </Grid>
+            </Grid>
             </div>
         </div>
     );
