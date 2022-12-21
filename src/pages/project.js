@@ -17,8 +17,10 @@ export default function Project()
         </div>
 
         <img style={{width:"100px",height:"50px"}} src={mern} alt="Mernstack"/>&nbsp;&nbsp;
+        <a href="https://chimerical-speculoos-5a9c1c.netlify.app/" target="_blank" rel="noreferrer">
         <Button variant="contained" color="secondary">Visit</Button>  
-    </Card >
+        </a>
+        </Card >
   </Grid>
   <Grid item xs={4}>
   <Card style={{height:"200px"}} variant="outlined" >
@@ -27,8 +29,10 @@ export default function Project()
         <p style={{align:"left"}}>This project allow authorised student to view their class details and their progress  </p>
         </div>
         <img style={{width:"100px",height:"50px"}} src={mern} alt="Mernstack"/>&nbsp;&nbsp;
+        <a href="https://stately-zuccutto-52d435.netlify.app/" target="_blank" rel="noreferrer">
         <Button variant="contained" color="secondary">Visit</Button>  
-    </Card >
+        </a>
+        </Card >
   </Grid>
   <Grid item xs={4}>
   <Card style={{height:"200px"}} variant="outlined" >
@@ -39,8 +43,10 @@ export default function Project()
          about you
         </p></div>
          <img style={{width:"80px",height:"80px"}} src={frontend} alt="js,html,css"/>&nbsp;&nbsp;
-         <Button variant="contained" color="secondary">Visit</Button>  
-    </Card >
+         <a href="https://effervescent-banoffee-e25f00.netlify.app/" target="_blank" rel="noreferrer">
+        <Button variant="contained" color="secondary">Visit</Button>  
+        </a>
+        </Card >
   </Grid>
   <Grid item xs={4}>
   <Card style={{height:"200px"}} variant="outlined" >
@@ -49,7 +55,12 @@ export default function Project()
         <p style={{align:"left"}}>This project is a simple puzzle game  </p>
         </div>
         <img style={{width:"80px",height:"80px"}} src={frontend} alt="js,html,css"/>&nbsp;&nbsp;
+
+        <a href="https://tourmaline-moonbeam-14dfb5.netlify.app/" target="_blank" rel="noreferrer">
         <Button variant="contained" color="secondary">Visit</Button>  
+        </a>
+
+
     </Card >
   </Grid>
   
