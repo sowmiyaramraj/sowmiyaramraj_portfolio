@@ -2,7 +2,6 @@ import React from "react";
 import Typography from '@mui/material/Typography';
 import github from "../images/githubicon.png";
 import email from "../images/emaillogo.png";
-import insta from "../images/instalogo.jpeg";
 import linkedin from "../images/linkedinlogo.png";
 import cvlogo from "../images/cvlogo.png";
 import sowimg from "../images/sowmiyaimg.jpg";
@@ -30,16 +29,13 @@ export default function Contact()
         <a href="www.linkedin.com/in/sowmiya-ramraj" target="_blank" rel="noreferrer">
           <img style={{width:"35px",height:"35px"}} src={linkedin} alt="github" />
         </a>&nbsp;&nbsp;
-        <a href="https://www.instagram.com/yoon_kids_mom" target="_blank" rel="noreferrer">
-          <img style={{width:"35px",height:"35px"}} src={insta} alt="github" />
-        </a>&nbsp;&nbsp;
-        <br/><br/>
+      
         <a href="https://github.com/sowmiyaramraj/sowmiyaRamraj-Resume" target="_blank" rel="noreferrer">
           <img style={{width:"55px",height:"55px"}} src={cvlogo} alt="github" />
         </a>&nbsp;&nbsp;
 
-        <Typography style={{fontWeight:"bolder"}} variant="h5" gutterBottom>Address</Typography>
-        <p style={{color:"grey",fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}}>No.5, Alagar salai<br/>Old Pallavarm,Chennai-600117</p>
+        <Typography style={{fontWeight:"bolder"}} variant="h5" gutterBottom>Current Location</Typography>
+        <p style={{color:"grey",fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}}>Chennai</p>
         <Typography style={{fontWeight:"bolder"}} variant="h5" gutterBottom>Phone number</Typography>
         <p style={{color:"grey",fontFamily:"cursive",fontStyle:"oblique",fontWeight:"bolder"}}>8122802274</p>
         </Grid>
