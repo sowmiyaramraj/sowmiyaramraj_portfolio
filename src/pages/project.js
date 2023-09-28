@@ -37,13 +37,11 @@ export default function Project()
   <Grid item xs={4}>
   <Card style={{height:"200px"}} variant="outlined" >
   <div style={{height:"120px"}}>
-    <Typography variant="h6" style={{fontWeight:"bolder"}}>Fresher portfolio website </Typography>
-        <p style={{align:"left"}}>The Complete Customizable Fresher Portfolio
-         Template which lets you showcase your work and provides each and every detail
-         about you
+    <Typography variant="h6" style={{fontWeight:"bolder"}}>E-Commerce </Typography>
+        <p style={{align:"left"}}>This is a E-commerce website Developed using Mernstack
         </p></div>
          <img style={{width:"80px",height:"80px"}} src={frontend} alt="js,html,css"/>&nbsp;&nbsp;
-         <a href="https://effervescent-banoffee-e25f00.netlify.app/" target="_blank" rel="noreferrer">
+         <a href="https://gregarious-daffodil-1b69de.netlify.app/" target="_blank" rel="noreferrer">
         <Button variant="contained" color="secondary">Visit</Button>  
         </a>
         </Card >
@@ -51,12 +49,12 @@ export default function Project()
   <Grid item xs={4}>
   <Card style={{height:"200px"}} variant="outlined" >
   <div style={{height:"120px"}}>
-    <Typography variant="h6" style={{fontWeight:"bolder"}}>Guess a word game </Typography>
-        <p style={{align:"left"}}>This project is a simple puzzle game  </p>
+    <Typography variant="h6" style={{fontWeight:"bolder"}}>Food order app </Typography>
+        <p style={{align:"left"}}>This is a simple food order app built using Mernstack  </p>
         </div>
         <img style={{width:"80px",height:"80px"}} src={frontend} alt="js,html,css"/>&nbsp;&nbsp;
 
-        <a href="https://tourmaline-moonbeam-14dfb5.netlify.app/" target="_blank" rel="noreferrer">
+        <a href="https://monumental-meringue-5ff4d9.netlify.app/home" target="_blank" rel="noreferrer">
         <Button variant="contained" color="secondary">Visit</Button>  
         </a>
 
